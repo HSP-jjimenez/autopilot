@@ -1,0 +1,25 @@
+<AssignedAccessConfiguration xmlns="http://schemas.microsoft.com/AssignedAccess/2017/config">
+  <Profiles>
+    <Profile Id="{f12f49c8-9888-4989-9a6a-d8083564635a}">
+      <StartLayout>
+        <![CDATA[<?xml version="1.0" encoding="utf-8"?>
+          <LayoutModificationTemplate xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification" xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout">
+            <LayoutOptions StartTileGroupCellWidth="6" />
+            <DefaultLayoutOverride>
+              <StartLayoutCollection>
+                <defaultlayout:StartLayout GroupCellWidth="6">
+                  <start:Group Name="">
+                    <start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Outlook.lnk" />
+                    <start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Teams for Business.lnk" />
+                    <start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Microsoft Edge.lnk" />
+                    <start:DesktopApplicationTile Size="2x2" Column="6" Row="0" DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Windows Explorer.lnk" />
+                    <start:SearchBox Column="8" Row="0" />
+                  </start:Group>
+                </defaultlayout:StartLayout>
+              </StartLayoutCollection>
+            </DefaultLayoutOverride>
+          </LayoutModificationTemplate>]]>
+      </StartLayout>
+    </Profile>
+  </Profiles>
+</AssignedAccessConfiguration>
